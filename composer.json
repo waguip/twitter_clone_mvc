@@ -1,0 +1,18 @@
+{
+	"name": "miniframework",
+	"require": {
+		"php": ">= 7.0"
+	},
+	"authors": [
+		{
+			"name": "Wagner Pichler Junior",
+			"email": "waguinho.pichler@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+		}
+	}
+}
